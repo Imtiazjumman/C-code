@@ -1,0 +1,115 @@
+Name  : Muhammad Imtiaz Ahmed
+ID    : 0432410005101138 
+
+……………………………………………………………………………………………….
+
+1. Check if a number is odd or even:
+
+
+#include <stdio.h>......
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0) {
+        printf("%d is even.\n", num);
+    } else {
+        printf("%d is odd.\n", num);
+    }
+
+    return 0;
+}
+
+
+2.Check if a character is a vowel or consonant..
+
+
+#include <stdio.h>
+
+int main() {
+    char ch;
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+        printf("%c is a vowel.\n", ch);
+    } else {
+        printf("%c is a consonant.\n", ch);
+    }
+
+    return 0;
+}
+
+
+
+3. Assign Ratings Based on Score.....
+
+
+#include <stdio.h>
+
+int main() {
+    int score;
+    printf("Enter the score: ");
+    scanf("%d", &score);
+
+    if (score >= 90) {
+        printf("Excellent\n");
+    } else if (score >= 75) {
+        printf("Good\n");
+    } else if (score >= 50) {
+        printf("Average\n");
+    } else {
+        printf("Poor\n");
+    }
+
+    return 0;
+}
+
+
+4. Find the second largest number:
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    if ((a > b && a < c) || (a > c && a < b)) {
+        printf("%d is the second largest number\n", a);
+    } else if ((b > a && b < c) || (b > c && b < a)) {
+        printf("%d is the second largest number\n", b);
+    } else {
+        printf("%d is the second largest number\n", c);
+    }
+
+    return 0;
+}
+
+5. Find The minimum number..
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+
+    printf("Enter 3 numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    int min = a;
+
+    if (b < min) {
+        min = b;
+    }
+    if (c < min) {
+        min = c;
+    }
+
+    printf("%d is the minimum number\n", min);
+
+    return 0;
+}
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1728103491 source:d:\c programming\prime number factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,9 @@
+2024-09-20T05:13:35.057Z INFO  panel-started
+2024-09-20T05:13:35.058Z INFO  UserAppDataPath: 
+2024-09-20T05:13:35.239Z DEBUG $.ext4.evalFiles("C:/Program Files/Common Files/Adobe/CEP/extensions/com.aejuice.packmanager4/host/") === /c/Program%20Files/Common%20Files/Adobe/CEP/extensions/com.aejuice.packmanager4/host/framework.jsx,/c/Program%20Files/Common%20Files/Adobe/CEP/extensions/com.aejuice.packmanager4/host/helpers.jsx,/c/Program%20Files/Common%20Files/Adobe/CEP/extensions/com.aejuice.packmanager4/host/ppro.jsx,/c/Program%20Files/Common%20Files/Adobe/CEP/extensions/com.aejuice.packmanager4/host/pproLegacy.jsx
+2024-09-20T05:13:35.239Z INFO  loaded host files
+2024-09-20T05:13:35.241Z DEBUG app.setExtensionPersistent("com.aejuice.packmanager4.panel",1) === true
+2024-09-20T05:13:35.241Z INFO  set extension persistent
+2024-09-20T05:13:35.255Z INFO  Start http server: http://localhost:6363/
+2024-09-20T05:13:35.255Z INFO  initialized server
+2024-09-20T05:13:35.255Z INFO  initiation started

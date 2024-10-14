@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1728491177 source:d:\c programming\sum of digits, reverse, palindrome, armstrong\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
